@@ -12,9 +12,7 @@
 
 <body>
     <div class="navbar">
-        <div class="logo">
-            Mari Boer
-        </div>
+        <img class="logo" src="images/logo.png" alt="Mari Boer">
         <div class="links">
             <a href="index.html" class="link">
                 Home
@@ -26,20 +24,11 @@
     </div>
     <div class="form-main-container">
         <div class="form-main">
-            <div class="form-title">
-                Contactformulier
-            </div>
-            <!-- 
-    This is a working contact form. To receive email, 
-    Replace YOUR_ACCESS_KEY_HERE with your actual Access Key.
-
-    Create Access Key here 👉 https://web3forms.com/
- -->
-
+            <img class="form-title" src="images/contactformulier.png" alt="Contactformulier">
             <section class="contact-section">
                 <div class="contact-intro">
                     <p class="contact-description">
-                        Vul het onderstaande formulier in en ik zal u zo snel mogelijk beantwoorden.
+                        Vul het onderstaande formulier in en ik zal u zo snel mogelijk antwoorden.
                     </p>
                 </div>
 
@@ -76,7 +65,7 @@
     <script>
         window.onload = function() {
             // Reset the form fields when the page loads
-            document.getElementById("contact-form").reset();
+            document.querySelector(".contact-form").reset();
         };
     </script>
 </body>

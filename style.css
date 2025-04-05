@@ -3,12 +3,6 @@
     src: url(fonts/Carlito-Regular.ttf);
 }
 
-@font-face {
-    font-family: Quetine;
-    src: url(fonts/Quetine.ttf) format('truetype');
-    src: url(fonts/Quetine.otf) format('opentype');
-}
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -72,8 +66,7 @@ body {
 }
 
 .logo {
-    font-family: Quetine;
-    font-size: 48pt;
+    height: 75px;
     position: relative;
     left: 0;
 }
@@ -172,13 +165,7 @@ body {
     width: 130px;
     aspect-ratio: 0.764;
     float: right;
-    margin: 2px;
-}
-
-#image-spacer {
-    height: 350px;
-    width: 0px;
-    float: right;
+    margin: 6px;
 }
 
 #kunst-image {
@@ -186,7 +173,7 @@ body {
     display: grid;
     float: right;
     clear: right;
-    height: 160px;
+    height: 120px;
     aspect-ratio: 1.562;
     margin: 4px;
     bottom: 0;

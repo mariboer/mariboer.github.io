@@ -3,12 +3,6 @@
     src: url(fonts/Carlito-Regular.ttf);
 }
 
-@font-face {
-    font-family: Quetine;
-    src: url(fonts/Quetine.ttf) format('truetype');
-    src: url(fonts/Quetine.otf) format('opentype');
-}
-
 *,
 ::before,
 ::after {
@@ -29,11 +23,10 @@ body {
 }
 
 .form-title {
-    font-family: Quetine;
     display: grid;
     align-content: center;
     justify-content: center;
-    font-size: 24pt;
+    width: 100%;
 }
 
 .form-main-container {
@@ -62,7 +55,7 @@ body {
     max-width: 40rem;
     margin-left: auto;
     margin-right: auto;
-    padding: 3rem 1rem;
+    padding: 2rem 1rem;
 }
 
 .contact-intro>*+* {
@@ -114,6 +107,7 @@ body {
 }
 
 .form-textarea {
+    font-family: Carlito-Regular;
     min-height: 120px;
 }
 

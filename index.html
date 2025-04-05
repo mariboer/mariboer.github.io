@@ -11,9 +11,7 @@
 
 <body>
     <div class="navbar">
-        <div class="logo">
-            Mari Boer
-        </div>
+        <img class="logo" src="images/logo.png" alt="Mari Boer">
         <div class="links">
             <a href="index.html" class="link">
                 Home
@@ -27,7 +25,6 @@
         <div class="info-container">
             <div class="info">
                 <div class="info-column">
-                    <div id="image-spacer"></div>
                     <img id="kunst-image" src="images/mb-kunst.png" alt="Kunstwerken">
                     <h1>Cursus Kunstgeschiedenis</h1>
                     <p>&nbsp;</p>
@@ -82,7 +79,7 @@
                 <div class="content-subcontainer">
                     <div class="content-item-container">
                         <div class="content-item" style="display: grid; justify-content: center;">
-                            <h2 style="font-size: 24pt;">Voorgaande bijeenkomsten</h2>
+                            <h2 style="font-size: 20pt;">Nieuws</h2>
                         </div>
                     </div>
                     <div id="content">
@@ -139,8 +136,8 @@
                     output += `<div class="content-item-container">
         <div class="content-item">
             <h2>${row.c[0]?.v || ''}</h2>
-            <p>${row.c[1]?.v || ''}</p>
             <p class="datum">${formattedDate}</p>
+            <p>${row.c[1]?.v || ''}</p>         
         </div>
     </div>`;
                 });
